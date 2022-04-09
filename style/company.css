@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+/* about */
+
+#about-company {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 176px;
+  padding-bottom: 96px;
+  position: relative;
+}
+
+#about-company .shape4 {
+  position: absolute;
+  top: 176px;
+  left: 0;
+}
+
+#about-company .shape11 {
+  position: absolute;
+  top: 176px;
+  right: 0;
+}
+
+#about-company .about-top .caption-about-top {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding-top: 48px;
+}
+
+#about-company .about-top h2 {
+  margin-top: 16px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 58px;
+  width: 50%;
+}
+
+#about-company .about-top p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  width: 58%;
+  margin-top: 24px;
+}
+
+#about-company .about-bottom {
+  width: 100%;
+  margin-top: 48px;
+}
+
+#about-company .about-bottom .img-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+
+#about-company .about-bottom .img-about.active {
+  position: relative !important;
+}
+
+#about-company .about-bottom .img-about {
+  height: 100%;
+}
+
+#about-company .about-bottom .img-about .card-item-img {
+  width: 100%;
+  height: 100%;
+}
+
+#about-company .about-bottom .shape {
+  position: absolute;
+  right: 0px;
+  background: #ffd3af;
+  height: 100%;
+}
+
+#about-company .about-bottom .text-number h3 {
+  position: relative;
+  margin-top: 48px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+#about-company .about-bottom .about-backgroud-one {
+  position: absolute;
+  width: 15%;
+  height: 18px;
+  right: 0;
+  top: -18px;
+  background: #444cfc;
+}
+
+#about-company .about-bottom .about-backgroud-two {
+  position: absolute;
+  width: 25%;
+  height: 18px;
+  right: 65%;
+  top: -18px;
+  background: #ffa155;
+}
+
+#about-company .about-bottom .about-backgroud-three {
+  position: absolute;
+  width: 50%;
+  height: 18px;
+  right: 15%;
+  top: -18px;
+  background: #ffd3af;
+}
+
+/* story */
+
+#story .story-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#story .story-container .shape-blue {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#story .story-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#story .text-story {
+  padding-top: 32px;
+}
+
+#story .story-left h6 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#story .story-left h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  width: 80%;
+  margin-top: 16px;
+}
+
+#story .story-left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  width: 88.5%;
+  opacity: 0.87;
+  margin-top: 24px;
+}
+
+#story .story-number {
+  background: rgba(255, 211, 175, 0.57);
+  padding: 0px 0px 80px 110px;
+}
+
+#story .story-right .list-card-number {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 0;
+}
+
+#story .story-right .text-number h3 {
+  margin-top: 48px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+}
+
+#story .story-right .text-number {
+  position: relative;
+}
+
+#story .story-right .shape12 {
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+#story .story-right .numbers p {
+  margin-top: 10px;
+}
+
+/* logobar */
+
+#logo-bar .logo-bar-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+#logo-bar .logo {
+  background: #fafafc;
+  justify-content: space-around;
+  display: flex;
+}
+
+#logo-bar .logo img {
+  width: 100%;
+}
+
+/* vision */
+
+#vision .vision-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 96px 0;
+}
+
+#vision .vision-top .vision-caption {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.87;
+}
+
+#vision .vision-top h3 {
+  width: 60%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  margin-top: 16px;
+}
+
+#vision .vision-top p {
+  width: 48%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  margin-top: 24px;
+  margin-bottom: 64px;
+  opacity: 0.6;
+}
+
+#vision .vision-bottom img {
+  width: 100%;
+}
+
+/* team */
+
+#team .team-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#team .team-top .team-caption {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.87;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+#team .team-top h2 {
+  width: 624px;
+  height: 116px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  margin-top: 16px;
+}
+
+#team .team-top p {
+  width: 505.05px;
+  height: 72px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+  margin-top: 24px;
+  margin-bottom: 64px;
+}
+#team .team-bottom .team-img img {
+  width: 100%;
+}
+
+#team .team-bottom .item-img {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+#team .team-bottom .team-img.bg-overlay {
+  position: relative;
+}
+
+#team .team-bottom .team-img.bg-overlay:hover .overlay {
+  display: block;
+  opacity: 0.9;
+}
+
+#team .team-bottom .overlay {
+  position: absolute;
+  top: 0;
+  background: rgba(35, 37, 54, 0.99);
+  opacity: 0.9;
+  width: 100%;
+  height: 100%;
+  color: #ecf8f9;
+  opacity: 0;
+  transition: all 0.5s;
+  padding: 55% 0px 10% 10%;
+}
+
+#team .overlay .content {
+  width: 100%;
+  height: 104px;
+}
+
+#team .overlay .list-item {
+  display: flex;
+}
+
+#team .overlay h4 a {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #ffffff;
+  font-style: normal;
+  text-decoration: none;
+}
+
+#team .overlay p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+
+  opacity: 0.7;
+}
+
+#team .overlay .item {
+  margin-right: 30px;
+}
+
+#team .overlay .item img {
+  width: 100%;
+}
+
+#cta {
+  margin-top: 0 !important;
+}

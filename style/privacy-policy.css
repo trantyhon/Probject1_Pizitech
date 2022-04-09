@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+#header-privacy .header-privacy-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 176px 0 72px 0;
+  position: relative;
+}
+
+#header-privacy .header-content-p h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  margin-top: 48px;
+}
+
+#header-privacy .header-content-p p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  margin-top: 8px;
+  opacity: 0.6;
+}
+
+#header-privacy .shape-orgean {
+  position: absolute;
+  top: 176px;
+}
+
+#header-privacy .shape {
+  position: absolute;
+  top: 176px;
+  right: 0;
+}
+
+/*  privacy-content*/
+#privacy-content {
+  padding-bottom: 96px;
+}
+
+#privacy-content .privacy-content-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  background: #ecf8f9;
+  position: relative;
+}
+
+#privacy-content .header-backgroud-one {
+  position: absolute;
+  width: 15%;
+  height: 24px;
+  left: 5%;
+  bottom: -24px;
+  background: #ffd3af;
+}
+
+#privacy-content .header-backgroud-two {
+  position: absolute;
+  width: 5%;
+  height: 24px;
+  left: 0;
+  bottom: -24px;
+  background: #8389ff;
+}
+
+#privacy-content .header-backgroud-three {
+  position: absolute;
+  width: 10%;
+  height: 24px;
+  left: 20%;
+  bottom: -24px;
+  background: #ffa155;
+}
+
+#privacy-content .privacy-text {
+  padding: 96px 221px;
+}
+
+#privacy-content .privacy-text h3 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 54px;
+  width: 100%;
+}
+
+#privacy-content .privacy-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 24px;
+}
+
+#privacy-content .privacy-text h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 40px;
+}

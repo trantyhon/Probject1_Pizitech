@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!-- gg front -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- slick -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+
+    <link rel="stylesheet" href="./../style/main.css" />
+    <link rel="stylesheet" href="./../style/blog-inner.css" />
+    <link rel="stylesheet" href="./../style/reponsive.css" />
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <div class="padding-page">
+        <div id="navbar">
+          <div class="logo">
+            <a class="navbar-brand" style="font-weight: 500" href="#">
+              <img src="./../assets/Logomain.png" alt=""
+            /></a>
+          </div>
+
+          <div class="nav-right">
+            <ul class="menu">
+              <li class="nav-item">
+                <a class="nav-link" href="./../home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./company.html">Company</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./career.html">Career</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact_us.html">Contact us</a>
+              </li>
+            </ul>
+
+            <button class="clone-probject">
+              Clone project <img class="right" src="./../assets/Icon-right.png" alt="" />
+            </button>
+          </div>
+          <label for="nav-mobileinput" class="nav-bars-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"
+              />
+            </svg>
+          </label>
+          <input hidden type="checkbox" id="nav-mobileinput" />
+          <label for="nav-mobileinput" class="overlay-btn-bars"> </label>
+          <div class="nav-mobile">
+            <label for="nav-mobileinput" class="nav-close-menuz">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                  d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"
+                />
+              </svg>
+            </label>
+
+            <ul class="menu">
+              <li class="nav-item">
+                <a class="nav-link" href="./../home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./services.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./company.html">Company</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./career.html">Career</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="./blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contact_us.html">Contact us</a>
+              </li>
+            </ul>
+
+            <button class="clone-probject">
+              Clone project <img src="./../assets/Icon-right.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="blog-inner">
+      <section id="blog-inner-header">
+        <div class="padding-page">
+          <div class="blog-inner-header-container">
+            <div class="blog-inner-header-company">
+              <div class="blog-inner-header-top">
+                <h2>Breaking the code How did we build our Figma plugin</h2>
+                <p>
+                  It is a long established fact that a reader will be distracted
+                  by the readable content of a page when looking at its layout.
+                  The Maker is a decentralized. We aim to attain the greatest
+                  satisfaction for our clients
+                </p>
+                <div class="person-inner">
+                  <img src="./../assets/person.png" alt="" />
+                  <span class="name-span">Andrew Jonson</span>
+                  <span class="tab-span">|</span>
+                  <span class="date-span">Posted on 27th January 2021</span>
+                </div>
+              </div>
+
+              <div class="blog-inner-header-bottom">
+                <div class="vison-img">
+                  <img src="./../assets/vision-img.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <img class="shape2" src="./../assets/Shape (2).png" alt="" />
+            <img class="shape11" src="./../assets/Shapes (11).png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section id="text-inner">
+        <div class="padding-page">
+          <div class="text-container-inner">
+            <h3>
+              Transform Your Idea Into Reality with Ether a Leading Digital
+              Agency
+            </h3>
+            <p>
+              Writing UX copies can be a little frustrating and confusing, and
+              sometimes we are unsure about how to get the right word. To crack
+              the code for the UX copies, we at Zeta Design wanted to build a
+              Figma plugin for the larger design community. The plugin is called
+              the Ghost UXWriter and has a set of UX copies cataloged and
+              categorized with a voice and tone variation ranging from plain,
+              casual to playful. The intention to build this Figma plugin
+              originated from our Medium blog post, ‘Designing voice and tone
+              for error messages.
+            </p>
+            <p>
+              Writing UX copies can be a little frustrating and confusing, and
+              sometimes we are unsure about how to get the right word. To crack
+              the code for the UX copies, we at Zeta Design wanted to build a
+              Figma plugin for the larger design community. The plugin is called
+              the Ghost UXWriter and has a set of UX copies cataloged.
+            </p>
+            <p>
+              Writing UX copies can be a little frustrating and confusing, and
+              sometimes we are unsure about how to get the right word. To crack
+              the code for the UX copies, we at Zeta Design wanted to build a
+              Figma plugin for the larger design community. The plugin is called
+              the Ghost UXWriter and has a set of UX copies cataloged.
+            </p>
+            <p>
+              Writing UX copies can be a little frustrating and confusing, and
+              sometimes we are unsure about how to get the right word. To crack
+              the code for the UX copies, we at Zeta Design wanted to build a
+              Figma plugin for the larger design community. The plugin is called
+              the Ghost UXWriter and has a set of UX copies cataloged and
+              categorized with a voice and tone variation ranging from plain,
+              casual to playful. The intention to build this Figma plugin
+              originated from our Medium blog post, ‘Designing voice.
+            </p>
+            <h4>
+              Transform Your Idea Into Reality with Ether a Leading Digital
+              Agency
+            </h4>
+            <span
+              >Step 1: Download the plugin from Figma community, search Ghost
+              UXWriter <br />
+              Step 2: Open the plugin on your artboard<br />
+              Step 3: Search for your copy or look through the different
+              categories of the copies<br />
+              Step 4: Select the type of error you are looking for. You will get
+              three different copies for each error<br />
+              Step 5: Tap on the cards to insert text in your frames And you are
+              all geared up to make your UX copies more fun and exciting
+              😎</span
+            >
+            <h4>
+              Transform Your Idea Into Reality with Ether a Leading Digital
+              Agency
+            </h4>
+            <p>
+              Writing UX copies can be a little frustrating and confusing, and
+              sometimes we are unsure about how to get the right word. To crack
+              the code for the UX copies, we at Zeta Design wanted to build a
+              Figma plugin for the larger design community. The plugin is called
+              the Ghost UXWriter and has a set of UX copies cataloged and
+              categorized with a voice and tone variation ranging from plain,
+              casual to playful. The intention to build this Figma plugin
+              originated from our Medium blog post, ‘Designing voice and tone
+              for error messages.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="padding-page">
+        <section id="cta">
+  
+          <div class="cta-container">
+            <div class="cta-box">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="cta-content">
+                    <div class="cta-caption">
+                      <caption>NEWSLETTER</caption>
+                    </div>
+                    <h3>Subscribe our News Letter
+                      to get Latest Updates.</h3>
+                  </div>
+                </div>
+  
+                <div class="col-lg-6">
+                  <div class="cta-text-box">
+                    <input placeholder="Paresh@Pixeto.com" id=""></input>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <img class="shape" src="./../assets/Shapes (2).png" alt="">
+            <div class="cta-backgroud-one"></div>
+            <div class="cta-backgroud-two"></div>
+            <div class="cta-backgroud-three"></div>
+  
+          </div>
+        </section>
+      </div>
+  
+      <section id="footer">
+        <div class="padding-page">
+          <div class="content">
+            <div class="footer-top">
+              <img class="shape" src="./../assets/Shapes.png" alt="">
+              <div class="grid-colums-footer">
+                <div class="footer-grid-main">
+                  <div class="footer-content">
+                    <h2>Let's make something special</h2>
+                    <p class="talk">Let's talk! 🤙 </p>
+                    <p class="phone">020 7993 2905</p>
+                    <p class="email">hi@finsweet.com</p>
+  
+                    <p class="address">DLF Cybercity, Bhubaneswar, India, &52050</p>
+                  </div>
+                </div>
+  
+                <div class="list-link-footer">
+                  <div class="footet-h">
+                    <div class="footer-link">
+                      <div class="link">
+                        <ul>
+                          <li class="text-link-content"><a href="">
+                              <h6>Home</h6>
+                            </a></li>
+                          <li class="text-link-content"><a href="">
+                              <h6>Service</h6>
+                            </a></li>
+                          <li class="text-link-content"><a href="">
+                              <h6>Company</h6>
+                            </a></li>
+                          <li class="text-link-content"><a href="">
+                              <h6>Career </h6>
+                            </a></li>
+                          <li class="text-link-content"><a href="">
+                              <h6>News</h6>
+                            </a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="footet-h footer-grid">
+                    <div class="footer-link">
+                      <div class="link">
+                        <ul>
+                          <li class="text-link-content"><a href="">
+                              <h6>Service</h6>
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              Technical support
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              Testing
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              Development
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              AWS/Azure
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              Consulting
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              Information Technology
+                            </a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="footet-h footer-grid">
+                    <div class="footer-link">
+                      <div class="link">
+                        <ul>
+                          <li class="text-link-content"><a href="">
+                              <h6>Resourses</h6>
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              About Us
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              Testimonial
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              Privacy Policy
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              Terms of use
+                            </a></li>
+                          <li class="text-content"><a href="">
+                              Blog
+                            </a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="contact">
+                <img class="shape-contact" src="./../assets/Shapes (3).png" alt="">
+                <button class="contact-btn"><a href="./contact_us.html">Contact Us</a> <img src="./../assets/Icon (1).png" alt=""></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <div class="padding-page">
+            <div class="content-bottom">
+              <div class="logo-footer">
+                <img src="./../assets/logofooter.png" alt="">
+                <p>©2021 Finsweet</p>
+              </div>
+  
+              <div class="logo-list">
+                <ul>
+                  <li><a href=""><img src="./../assets/Facebook/Negative.png" alt=""></a></li>
+                  <li><a href=""><img src="./../assets/Twitter/Negative.png" alt=""></a></li>
+                  <li><a href=""><img src="./../assets/Instagram/Negative.png" alt=""></a></li>
+                  <li><a href=""><img src="./../assets/LinkedIn/Negative.png" alt=""></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

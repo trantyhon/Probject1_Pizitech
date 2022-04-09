@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+#header-cereer {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 176px 0 96px 0;
+  text-align: center;
+}
+
+#header-cereer .header-cereer-container {
+  position: relative;
+}
+
+#header-cereer .header-text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#header-cereer .shapes {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#header-cereer .header-text .header-caption {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #232536;
+
+  opacity: 0.87;
+}
+
+#header-cereer .header-img img {
+  width: 100% !important;
+}
+
+#header-cereer .header-text h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  margin-top: 16px;
+  color: #232536;
+}
+
+#header-cereer .header-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #232536;
+  opacity: 0.87;
+  width: 85%;
+  margin: 24px auto;
+}
+
+#header-cereer .header-img img {
+  width: 1099.78px;
+  height: 194.94px;
+  margin-top: 44px;
+}
+
+#header-cereer .content-p {
+  width: 40%;
+  margin: 96px auto 0 auto;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+#header-cereer .content-p span {
+  padding-top: 40px;
+}
+
+/* careers */
+
+#careers {
+  padding-bottom: 96px;
+}
+
+#careers .careers-page-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  background: #ecf8f9;
+}
+
+#careers .careers-list {
+  padding: 78px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 90%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#careers .careers-list .card-content {
+  background: #ffffff;
+  padding: 48px 0 30px 48px;
+}
+
+#careers .card-content h6 {
+  font-weight: 600;
+  font-size: 16px;
+  height: 50px;
+  line-height: 28px;
+}
+
+#careers .card-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 10px;
+  color: #232536;
+  opacity: 0.6;
+  margin-top: 20px;
+}
+
+#careers .card-content .link {
+  margin-top: 52px;
+}
+
+#careers .card-content .link:hover img {
+  transform: translateX(10px);
+}
+
+#careers .card-content .link img {
+  transition: all 0.5s;
+}
+
+#careers .card-content .link a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #5d5fef !important;
+  text-decoration: none;
+}
+
+/* services */
+
+#services-cereers {
+  background: #fafafc;
+  padding: 96px 0;
+}
+
+#services-cereers .services-container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#services-cereers .service-top .service-caption {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+
+  opacity: 0.87;
+}
+
+#services-cereers .service-top h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  margin-top: 12px;
+  width: 60%;
+}
+
+#services-cereers .service-top p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+  width: 49%;
+  margin-top: 32px;
+}
+
+#services-cereers .service-top .shape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 29px;
+  height: 27px;
+}
+
+#services-cereers .service-bottom {
+  margin-top: 80px;
+}
+
+#services-cereers .service-bottom .service-cereer-bottom {
+  row-gap: 20px;
+}
+
+#services-cereers .service-bottom .service-item {
+  background: #ffffff;
+  padding-bottom: 32px;
+  transition: all 0.5s;
+}
+
+#services-cereers .service-bottom .service-item:hover {
+  background: transparent;
+}
+
+#services-cereers .service-bottom .item img {
+  width: 47px;
+  height: 47px;
+  margin: 48px 310px 0 48px;
+}
+
+#services-cereers .text h6 {
+  margin-top: 16px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+#services-cereers .text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5d5f6d;
+}
+
+#services-cereers .service-bottom .btn-item {
+  border: none;
+  background: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444cfc;
+  opacity: 0.87;
+  margin-left: 48px;
+}
+
+#services-cereers .service-bottom .text {
+  margin: 0 31px 24px 48px;
+}
